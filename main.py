@@ -11,7 +11,7 @@ scoreboard = Scoreboard()
 car_manager = CarManager()
 screen.listen()
 screen.onkey(player.move_forward, 'Up')
-screen.onkey(player.move_backward,'Down')
+screen.onkey(player.move_backward, 'Down')
 screen.onkey(player.move_right, 'Right')
 screen.onkey(player.move_left, 'Left')
 game_is_on = True
@@ -29,15 +29,3 @@ while game_is_on:
             game_is_on = False
             scoreboard.game_over()
 screen.exitonclick()
-
-
-
-
-
-
-
-
-
-
-
-
